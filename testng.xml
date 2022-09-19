@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="TestRunner">
+		<classes>
+			<class name="Testcases.GetSingleUser" />
+			<class name="Testcases.GetSingleUserNotFound" />
+			<class name="Testcases.GetListUser" />
+			<class name="Testcases.GetListResourses" />
+			<class name="Testcases.GetSingleResourse" />
+			<class name="Testcases.GetSingleResoursesNotFound" />
+			<class name="Testcases.GetDelayResponse" />
+			<class name="Testcases.LoginSuccessful" />
+			<class name="Testcases.LoginUnSuccessful" />
+			<class name="Testcases.RegisterSuccessful" />
+			<class name="Testcases.RegisterUnSuccessful" />
+			<class name="Testcases.Post" />
+			<class name="Testcases.Delete" />
+			<class name="Testcases.Put" />
+			<class name="Testcases.InvalidDelete" />
+			<class name="Testcases.Patch" />
+		</classes>
+	</test> <!-- TestRunner -->
+</suite> <!-- Suite -->

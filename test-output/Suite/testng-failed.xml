@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestRunner(failed)">
+    <classes>
+      <class name="Testcases.Post">
+        <methods>
+          <include name="postCreate"/>
+        </methods>
+      </class> <!-- Testcases.Post -->
+      <class name="Testcases.RegisterUnSuccessful">
+        <methods>
+          <include name="registerUnSuccessful"/>
+        </methods>
+      </class> <!-- Testcases.RegisterUnSuccessful -->
+      <class name="Testcases.LoginUnSuccessful">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Testcases.LoginUnSuccessful -->
+      <class name="Testcases.GetListResourses">
+        <methods>
+          <include name="getListResourses"/>
+        </methods>
+      </class> <!-- Testcases.GetListResourses -->
+      <class name="Testcases.GetSingleUser">
+        <methods>
+          <include name="getSingleUser"/>
+        </methods>
+      </class> <!-- Testcases.GetSingleUser -->
+      <class name="Testcases.GetListUser">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Testcases.GetListUser -->
+      <class name="Testcases.GetSingleResourse">
+        <methods>
+          <include name="getSingleResourses"/>
+        </methods>
+      </class> <!-- Testcases.GetSingleResourse -->
+      <class name="Testcases.Put">
+        <methods>
+          <include name="update"/>
+        </methods>
+      </class> <!-- Testcases.Put -->
+      <class name="Testcases.GetSingleResoursesNotFound">
+        <methods>
+          <include name="getSingleResoursesNotFound"/>
+        </methods>
+      </class> <!-- Testcases.GetSingleResoursesNotFound -->
+      <class name="Testcases.InvalidDelete">
+        <methods>
+          <include name="deleteMethod"/>
+        </methods>
+      </class> <!-- Testcases.InvalidDelete -->
+      <class name="Testcases.RegisterSuccessful">
+        <methods>
+          <include name="registerSuccessful"/>
+        </methods>
+      </class> <!-- Testcases.RegisterSuccessful -->
+      <class name="Testcases.LoginSuccessful">
+        <methods>
+          <include name="loginSucessful"/>
+        </methods>
+      </class> <!-- Testcases.LoginSuccessful -->
+      <class name="Testcases.Delete">
+        <methods>
+          <include name="deleteMethod"/>
+        </methods>
+      </class> <!-- Testcases.Delete -->
+      <class name="Testcases.GetDelayResponse">
+        <methods>
+          <include name="getDelayResponse"/>
+        </methods>
+      </class> <!-- Testcases.GetDelayResponse -->
+      <class name="Testcases.Patch">
+        <methods>
+          <include name="update"/>
+        </methods>
+      </class> <!-- Testcases.Patch -->
+      <class name="Testcases.GetSingleUserNotFound">
+        <methods>
+          <include name="getSingleUseNotFound"/>
+        </methods>
+      </class> <!-- Testcases.GetSingleUserNotFound -->
+    </classes>
+  </test> <!-- TestRunner(failed) -->
+</suite> <!-- Failed suite [Suite] -->
